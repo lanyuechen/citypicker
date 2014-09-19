@@ -1,0 +1,43 @@
+.aaarea{
+	position:absolute;
+	z-index: 1000;
+	left:0;
+	top:0;
+	padding:5px;
+	border:1px solid #aaa;
+	border-radius:3px;
+	background:#fff;
+	box-shadow: 3px 3px 6px #666;
+}
+.aaarea .select{
+	float: left;
+}
+.aaarea .select .province{
+	display: none;
+	height: 22px;
+}
+.aaarea .select .city{
+	display: none;
+	height: 22px;
+}
+.aaarea .select .area{
+	display: none;
+	height: 22px;
+}
+.aaarea .cancle{
+	display: block;
+	width: 20px;
+	height: 20px;
+	line-height: 18px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	color: #ff0000;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	float: left;
+	margin: 0 0 0 5px;
+}
+.aaarea .cancle:hover{
+	background: #eee;
+}
